@@ -1,0 +1,55 @@
+
+
+#destaques{
+	background: url("imgs/bg-img.jpg") repeat;
+	width: 100%;
+	height: 275px;
+}
+
+#scroll_dest {
+	width: 910px;
+	height: 100%;
+	border: solid 0px white;
+	margin: 0 auto;
+}
+
+#scroll_dest:hover #arrow-left{	opacity: 1.0;	}
+#scroll_dest:hover #arrow-right{	opacity: 1.0;	}
+
+#scroll_dest #arrow-left ,#scroll_dest #arrow-right {
+	margin-top: 110px;
+	border-radius: 12px;
+	opacity: 0.0;
+	position: absolute;
+	color: #fff;
+	cursor: pointer;
+	font-size: 22px;
+	z-index: 10;
+}
+
+#scroll_dest #arrow-right {
+	margin: -165px 0 0 888px;
+}
+
+#scroll_dest #bg-img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#scroll_dest #bg-img ul li img{
+	width: 100%;
+	height: 100%;
+}
+
+#scroll_dest #bg-img ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+} 
+
+#scroll_dest #bg-img ul li {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}

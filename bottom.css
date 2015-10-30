@@ -1,0 +1,218 @@
+
+
+#list-cot{
+	width: 960px;
+	height: auto/*180px*/;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+	border-bottom: 5px solid #ba4033;
+	color: #fff;
+	font-family: bariol;
+}
+
+#list-cot ul{
+	float: left;
+	margin: 0 10px;
+	padding: 0;
+	list-style-type: none;
+}
+
+#list-cot ul b{
+	width: 120px;
+	margin: 0;
+	padding-left: 5px;
+	border-left: solid 5px #ba4033;
+	font-size: 19px;
+}
+
+#list-cot ul li{
+	width: 120px;
+	margin: 1px 0 0 10px;
+}
+
+#list-cot ul li a{
+	font-family: bariol;
+	font-size: 14px;
+	color: #fff;
+}
+
+#list-cot ul li a:hover{ text-decoration: underline; color: #000;}
+
+#list-cot #topo {
+	color: #fff;
+	background: #ba4033;
+	float: right;
+	margin: 173px 0 0;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+#list-cot #topo:hover{background: #9c3428;}
+
+
+/*		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  		*/
+
+#bot-container {
+	width: 960px;
+	height: 363px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+#bot-container #facebook {
+	width: 365px;
+	height: 323px;
+	float: left;
+	color: #fff;
+}
+
+#facebook b{
+	width: 120px;
+	padding-left: 8px;
+	float: left;
+	border-left: solid 5px #ba4033;
+	font-family: asap-bold;
+	font-size: 22px;
+}
+
+#facebook #arrow {
+	padding: 5px 10px;
+	margin-top: 3px;
+	float: right;
+	background: #ba4033;
+	font-family: asap-reg;
+	font-size: 18px;
+}
+
+#facebook #arrow div{
+	border-top: solid 16px transparent;
+	border-bottom: solid 15px transparent;
+	border-right: solid 16px #ba4033;
+	position: absolute;
+	margin-top: -5px;
+	margin-left: -26px;
+}
+
+#facebook #fbwindow {
+	clear: both;
+	width: 361px;
+	height: 267px;
+	margin-top: 45px;
+	border: solid 2px #ccc;
+	border-top: solid 2px #000;
+	background: #fff;
+}
+
+/*			!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!			*/
+
+#bot-container  #divisoria{
+	width: 48px;
+	height: 185px;
+	margin: 70px 0 0 30px;
+	float: left;
+	background: url("imgs/sombra.png");
+	
+}
+
+/*			!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!			*/
+
+#bot-container #bot-tab{
+	width: 517px;
+	height: 326px;
+	float: left;
+	color: #fff;
+}
+
+#bot-tab #tab{ padding: 0; margin: 0;}
+
+#bot-tab #tab  li{
+	padding: 10px 15px;
+	margin-right: 10px;
+	border-radius: 6px 6px 0 0;
+	float: left;
+	list-style: none;
+	cursor: pointer;
+	font-family: asap-bold;
+	font-size: 16px;
+}
+
+#bot-tab #tab  li:hover{	background: #ba4033; opacity: 0.5;}
+
+#bot-tab #tab  #tab-ativa{
+	background: #ba4033;
+	opacity: 1.0 !important;
+}
+
+#bot-tab #tab-cot{
+	width: 497px;
+	height: 255px;
+	clear: both;
+}
+
+#bot-tab #tab-cot div{
+	background: #ba4033;
+	width: 100%;
+	height: 245px;
+	padding: 20px 10px;
+}
+
+#tab-cot #tab-1 ul {
+	margin: 0 10px;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+
+#tab-cot #tab-1 ul b{
+	font-family: asap-bold;
+	font-size: 18px;
+}
+
+#tab-cot #tab-1 ul li{
+	width: 100px;
+	text-overflow: ellipsis;
+	font-family: arial;
+}
+
+/*		-------		*/
+
+#tab-cot #tab-2 ul {
+	margin: 0 10px;
+	padding: 0;
+	list-style-type: none;
+}
+
+#tab-cot #tab-2 ul li a{
+	color: #fff;
+	font-family: bariol;
+	font-size: 18px;
+}
+
+#tab-cot #tab-2 ul li a:hover{ text-decoration: underline; font-size: 22px;}
+
+
+/*		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!			*/
+
+#creditos {
+	width: 100%;
+	height: 105px;
+	padding: 30px 0 10px;
+	background: #333;
+}
+
+#creditos #gradient{
+	width: 100%;
+	height: 18px;
+	margin-top: -20px;
+	position: absolute;
+	background-image: linear-gradient( to bottom, rgba(204, 204, 204, 1) 8px, rgba(51, 51, 51, 1) 8px, rgba( 255, 255, 255, 1) 10px);
+}
+
+#creditos p{
+	color: #fff;
+	font-family: bariol;
+	text-align: center;
+	font-size: 20px;
+}
+
+#creditos p a{ color: #fff;}
